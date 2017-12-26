@@ -18,7 +18,7 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "UChicago Winter Care Packages"
-  description = "Bringing Winter care to tired Students"
+  description = "Bringing Winter care to overworked Students"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -92,7 +92,7 @@ googleAnalytics = ""
       icon = "fa-shopping-cart"
       title = "You Order"
       description = "Utilizing our convenient, online services, you simply select and order one of our care package options and specify to us the lucky recipient's name and dormitory."
-      url = "#"
+      url = "{{ .Site.BaseURL }}#portfolio"
 
     [[params.services.row.list]]
       icon = "fa-arrow-right"
@@ -180,8 +180,7 @@ googleAnalytics = ""
       livesIn = "International House"
       scope = []
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """Named after esteemed former UChicago Professor Paul Shorey, has been home to undergraduates at the College since 1960. Shorey House and its residents enjoy a strong culture of Broomball, quarterly Assassins games, Sports Frolic, and Super Smash Bros. tournaments, among many other quirky traditions. The Shorey House Council ensures that these traditions live on and that each Shorey resident finds a home here.  """
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
