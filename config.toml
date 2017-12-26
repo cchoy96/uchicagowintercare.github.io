@@ -65,10 +65,10 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+    # [[menu.postpend]]
+    #   url = "http://gohugo.io"
+    #   name = "External link"
+    #   weight = 10
 
 
   # Hero section
@@ -84,7 +84,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Services"
-    subtitle = "How our Winter Care Package process works."
+    subtitle = "Do you have a student at one of America's most academically rigorous and demanding universities, located in a notoriously frigid city? Warm their spirits with a care package from a loved one!"
 
     [[params.services.row]]
 
@@ -114,7 +114,9 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Packages"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Select bundles from our menu below to build your own custom care package. \
+    Add them to your Paypal Cart, then select CHECK OUT in the Paypal tab when you're done building. \
+    Please remember to denote your student's NAME and DORMITORY in the shipping address during Paypal checkout or we will be *unable to deliver your order.*"
 
     [params.portfolio.modal]
       client = "Client"
@@ -164,23 +166,19 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    subtitle = "The people responsible for delivering your love."
+    description = "All proceeds from this operation go to the Shorey House Council; an entity of Shorey House affiliated with the University of Chicago."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+      name = "Shorey House"
+      position = "The Team"
+      reportsTo = ""
+      livesIn = "International House"
+      scope = []
       # For bio markdown and even multiline strings are available.
       bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
 She worked at Pied Piper for years until they went belly up."""
