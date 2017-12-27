@@ -18,7 +18,7 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "UChicago Winter Care Packages"
-  description = "Bringing Winter care to overworked Students"
+  description = "Send a Student some Love this Winter"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -91,7 +91,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-shopping-cart"
       title = "You Order"
-      description = "Utilizing our convenient, online services, you simply select and order one of our care package options and specify to us the lucky recipient's name and dormitory."
+      description = "Utilizing our convenient, online services, you simply build and order your own custom care package option and specify to us the lucky recipient's name and dormitory."
       url = "#portfolio"
 
     [[params.services.row.list]]
@@ -128,36 +128,36 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = false
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
-
-    # The events will be listed from the top to the bottom.
-    # All images are stored under 'static/img/about'.
-    # Replace them with your own.
-    [[params.about.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+    # title = "About"
+    # subtitle = "Lorem ipsum dolor sit amet consectetur."
+    # endpoint = "Be part<br>of our<br>story!"
+    #
+    # # The events will be listed from the top to the bottom.
+    # # All images are stored under 'static/img/about'.
+    # # Replace them with your own.
+    # [[params.about.events]]
+    #   img = "1.jpg"
+    #   date = "2009-2011"
+    #   title = "Our Humble Beginnings"
+    #   description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+    #
+    # [[params.about.events]]
+    #   img = "2.jpg"
+    #   date = "March 2011"
+    #   title = "An Agency is Born"
+    #   description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+    #
+    # [[params.about.events]]
+    #   img = "3.jpg"
+    #   date = "December 2012"
+    #   title = "Our Humble Beginnings"
+    #   description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+    #
+    # [[params.about.events]]
+    #   img = "4.jpg"
+    #   date = "July 2014"
+    #   title = "Phase Two Expansion"
+    #   description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
   # Team section
@@ -261,8 +261,8 @@ googleAnalytics = ""
     email = "cchoy@uchicago.edu"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    thanks = "Thank you for contacting us. We'll try to email you back as soon as possible!"
+    error = "Message could not be send. Please contact us directly at contact@uchicagowintercare.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -294,21 +294,17 @@ googleAnalytics = ""
   [params.footer]
     enable = true
     copyright = "Published under the Apache License 2.0."
+    endtext = "© [Christopher Choy](www.chrischoy.net) 2017"
 
     [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-      title = "Twitter"
+      icon = "fa-home"
+      link = "https://housing.uchicago.edu/houses_houses/international_house/shorey_house/"
+      title = "Shorey House Page"
 
     [[params.footer.social]]
       icon = "fa-facebook"
       link = "#"
       title = "Facebook"
-
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-      title = "LinkedIn"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
