@@ -296,7 +296,7 @@ header {
     -o-background-size: cover;
     /* hero adjustments for fullscreen */
     position: relative;
-    height: 110vh;
+    height: 100vh;
 }
 
 header .intro-text {
