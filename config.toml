@@ -204,7 +204,7 @@ googleAnalytics = ""
         "Lead Website Developer",
         "Primary Student Contact"
       ]
-      bio = """  """
+      bio = """ Will probably be the one responding when you [Contact Us](#contact). Please especially let me know if you find any weird bugs with this website! """
 
   # Client section
     [params.clients_list]
