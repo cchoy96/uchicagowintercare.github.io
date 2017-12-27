@@ -48,10 +48,10 @@ googleAnalytics = ""
     brand = "UWCP"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
+    services = "How it Works"
     portfolio = "Packages"
     about = "About"
-    team = "Team"
+    team = "About Us"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -83,8 +83,8 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Do you have a student at one of America's most academically rigorous and demanding universities, located in a notoriously frigid city? Warm their spirits with a care package from a loved one!"
+    title = "How It Works"
+    subtitle = "Have a student at one of America's most academically rigorous institutions during its coldest time of the year? Warm their spirits with a care package from a loved one!"
 
     [[params.services.row]]
 
@@ -177,25 +177,20 @@ googleAnalytics = ""
       name = "Shorey House"
       position = "The Team"
       reportsTo = ""
-      livesIn = "International House"
+      livesIn = "[International House](https://ihouse.uchicago.edu/)"
       scope = []
       # For bio markdown and even multiline strings are available.
-      bio = """Named after esteemed former UChicago Professor Paul Shorey, has been home to undergraduates at the College since 1960. Shorey House and its residents enjoy a strong culture of Broomball, quarterly Assassins games, Sports Frolic, and Super Smash Bros. tournaments, among many other quirky traditions. The Shorey House Council ensures that these traditions live on and that each Shorey resident finds a home here.  """
+      bio = """ Named after esteemed former UChicago Professor Paul Shorey, Shorey House has been home to undergraduates at the College since 1960. Its residents enjoy a strong culture of Broomball, quarterly Assassins games, Sports Frolic, and Super Smash Bros. tournaments, among many other quirky traditions. The Shorey House Council ensures that these traditions live on and that each Shorey resident finds a home here.  """
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-home", "https://housing.uchicago.edu/houses_houses/international_house/shorey_house/"]
       ]
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      name = "Chris Choy"
+      position = "House President"
+      bio = """  """
+      social = []
 
     [[params.team.members]]
       img = "3.jpg"
