@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "http://www.cchoy.net/"
 languageCode = "en-us"
 title = "UChicago Winter Care Packages"
 theme = "hugo-agency-theme"
