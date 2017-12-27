@@ -92,19 +92,19 @@ googleAnalytics = ""
       icon = "fa-shopping-cart"
       title = "You Order"
       description = "Utilizing our convenient, online services, you simply select and order one of our care package options and specify to us the lucky recipient's name and dormitory."
-      url = "{{ .Site.BaseURL }}#portfolio"
+      url = "#portfolio"
 
     [[params.services.row.list]]
       icon = "fa-arrow-right"
       title = "We Deliver"
       description = "With our capable team of 60 UChicago students, we purchase, package, and hand deliver your selected items to your student's specified dormitory."
-      url = "#"
+      url = "#team"
 
     [[params.services.row.list]]
       icon = "fa-heart"
       title = "They Enjoy"
       description = "After receiving an email from their dormitory's staff that their care package has arrived, your student will be able to conveniently pick up and enjoy your small bundle of love."
-      url = "#"
+      url = "#contact"
 
   # Portfolio section
   [params.portfolio]
@@ -190,7 +190,7 @@ googleAnalytics = ""
       name = "Shorey"
       position = "The Team"
       livesIn = "[Shorey House](https://housing.uchicago.edu/houses_houses/international_house/shorey_house/)"
-      bio = """ Currently 60 students strong, we're the ones who make the magic happen. As fellow students at the University of Chicago, we know just how much a care package can mean during the strenuous Winter Quarter. More than just a bundle of delicious treats, it's a small token of love and support. We'll do our best to create and deliver your care package. """
+      bio = """ Currently 60 students strong, we're the ones who make the magic happen. As fellow students at the University of Chicago, we know just how much a care package can mean during the strenuous Winter Quarter. More than just a bundle of delicious, well-needed treats, it's a small token of your love and support. We'll do our best to create and deliver your care package. """
       scope = [
         ""
       ]
