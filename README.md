@@ -55,7 +55,7 @@ If you wish to change the domain name of the site, change the **CNAME** file and
 The domain's DNS must also be updated, but this is for the admin of the site to worry about.
 
 #### More In-depth Edits
-To do more custom edits to the website, you'll need to go into the website's HTML and CSS files. This will require a bit of knowledge about how those languages work. The HTML files are all located within the **layouts/** directory. The CSS files are all located within the **static/css** directory. Be especially careful messing with these files. 
+To do more custom edits to the website, you'll need to go into the website's HTML and CSS files. This will require a bit of knowledge about how those languages work. The HTML files are all located within the **layouts/** directory. The CSS files are all located within the **static/css** directory. Be especially careful messing with these files.
 
 ### Pushing to Master
 When you're finished editing the site, you will want to *push* your changes to the master branch.
@@ -75,8 +75,10 @@ Note, however, your github account must be registered as a collaborator in the r
 
 ** Do not EVER push broken code to the master branch. **
 
-## Publishing the Site
-Run the publish.sh script from your local repo copy. Make sure you've committed and push'd to the **master** branch.
+## Publishing the Live Site
+The actual website reads from the files in the **gh-pages** branch to build itself. So, to change the actual live website, we must build the site using Hugo and have the build files be pushed into this branch. I've written a script that automates almost the entire process for this.
+
+Run the **publish.sh** script from your local repo copy. Make sure you've committed and push'd to the **master** branch.
 ```
 $ ./publish.sh
 ```
@@ -84,3 +86,7 @@ $ ./publish.sh
 Then, go into the repo settings. Under **GitHub Pages** set the **Custom Domain** to whatever the website's domain name is. If you don't do this step, the live website will be down and people will be sad.
 
 To check that your changes have gone through to the live website, just go to it. It may take a few minutes for the changes to the website to propagate. It's best to view the new website through an incognito tab so your browser cache doesn't interfere.
+
+## Contact
+Questions or Comments? Just contact the website's admin and/or the owner of this repository.
+Since the owner may change, you can also contact [Chris Choy](chrischoy.net). He was the original owner of this repository, creator of the site, and person who wrote this README.
