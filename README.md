@@ -16,4 +16,6 @@ To do this, navigate to the website's repo's "home page". This can be done by cl
 Next, click on the green button towards the right of the screen that says **'Clone or download'**. Copy the url there to your clipboard, then open your Terminal.
 
 In your terminal, navigate to whatever directory you want to have the website's files in. Then, type the following:
+```python
+$ git clone https://github.com/cchoy96/uchicagowintercare.github.io.git
 ```
