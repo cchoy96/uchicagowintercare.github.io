@@ -175,7 +175,7 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "1.jpg"
       name = "Shorey House"
-      position = "The Team"
+      position = "The House"
       reportsTo = ""
       livesIn = "[International House](https://ihouse.uchicago.edu/)"
       scope = []
@@ -187,20 +187,24 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Chris Choy"
-      position = "House President"
-      bio = """  """
+      name = "Shorey"
+      position = "The Team"
+      livesIn = "[Shorey House](https://housing.uchicago.edu/houses_houses/international_house/shorey_house/)"
+      bio = """ Currently 60 students strong, we're the ones who make the magic happen. As fellow students at the University of Chicago, we know just how much a care package can mean during the strenuous Winter Quarter. More than just a bundle of delicious treats, it's a small token of love and support. We'll do our best to create and deliver your care package. """
+      scope = [
+        ""
+      ]
       social = []
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+      name = "Chris Choy"
+      position = "President"
+      scope = [
+        "Lead Website Developer",
+        "Primary Student Contact"
       ]
+      bio = """  """
 
   # Client section
     [params.clients_list]
