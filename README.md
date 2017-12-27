@@ -41,9 +41,21 @@ Here, you should be able to see your local version of the website hosted on your
 Any changes you make to the website's files will be reflected on this localhost.
 
 ## Editing the Site
-Most of the website's text can all be edited through the **config.toml** file.
+To edit the site's files, you'll want to do it in a text editor. [Atom](https://atom.io/) and [Sublime Text](https://www.sublimetext.com/) are user friendly options and in common-use today. [vim](http://www.vim.org/) is another popular option, but it's difficult to pick up and I don't recommend diving into it for this kind of work tbh.
 
-If you wish to change the domain name of the site, change the **CNAME** file and the **config.toml**'s '*baseurl* field. 
+#### Editing the Website Text
+Almost all of the website's text can all be edited through the **config.toml** file.
+
+#### Editing the Website's Images
+This can be done by changing out the images in the **static/img** directory. Make sure that whatever new image you're trying to insert has the same name and file extension as the one it is replacing.
+
+#### Editing the Website's Domain Name
+If you wish to change the domain name of the site, change the **CNAME** file and the **config.toml**'s *baseurl* field.
+
+The domain's DNS must also be updated, but this is for the admin of the site to worry about.
+
+#### More In-depth Edits
+To do more custom edits to the website, you'll need to go into the website's HTML and CSS files. This will require a bit of knowledge about how those languages work. The HTML files are all located within the **layouts/** directory. The CSS files are all located within the **static/css** directory. Be especially careful messing with these files. 
 
 ### Pushing to Master
 When you're finished editing the site, you will want to *push* your changes to the master branch.
@@ -59,7 +71,9 @@ When you're ready to push your changes to the server repo, use
 $ git push
 ```
 
-Note, however, your github account must be registered as a collaborator in the repository.
+Note, however, your github account must be registered as a collaborator in the repository to push to it. I may impose some conventions regarding *merge requests* and such later on. This is better practice but may be an unnecessary pain considering the scope of this project.
+
+** Do not EVER push broken code to the master branch. **
 
 ## Publishing the Site
 Run the publish.sh script from your local repo copy. Make sure you've committed and push'd to the **master** branch.
