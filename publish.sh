@@ -6,7 +6,7 @@
 
 #!/bin/sh
 
-DIR=~/chrischoy.github.io/
+DIR=~/uchicagowintercare.github.io/
 
 cd $DIR/
 
