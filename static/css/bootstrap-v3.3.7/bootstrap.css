@@ -1587,9 +1587,6 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-.container-hero {
-    min-height: 98vh;
-}
 @media (min-width: 768px) {
   .container {
     width: 750px;
