@@ -45,9 +45,14 @@ To edit the site's files, you'll want to do it in a text editor. [Atom](https://
 
 #### Editing the Website Text
 Almost all of the website's text can all be edited through the **config.toml** file.
+To edit the text used for the *Packages* section, access the .yaml files in the **data/projects** directory.
 
 #### Editing the Website's Images
 This can be done by changing out the images in the **static/img** directory. Make sure that whatever new image you're trying to insert has the same name and file extension as the one it is replacing.
+
+If you choose to change the file name or extension, you will need to change it in all the places that reference that image in either the .yaml or .toml files.
+
+Try to keep the image dimensions the same to preserve the layout of the site.
 
 #### Editing the Website's Domain Name
 If you wish to change the domain name of the site, change the **CNAME** file and the **config.toml**'s *baseurl* field.

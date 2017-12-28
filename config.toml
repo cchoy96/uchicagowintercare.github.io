@@ -119,15 +119,14 @@ googleAnalytics = ""
     Please remember to denote your student's NAME and DORMITORY in the shipping address during Paypal checkout or we will be *unable to deliver your order.*"
 
     [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+      category = ""
+      buttonText = "Return to Package Catalog"
 
 
     # About section
   [params.about]
     enable = false
+    # TODO: rm
     # title = "About"
     # subtitle = "Lorem ipsum dolor sit amet consectetur."
     # endpoint = "Be part<br>of our<br>story!"
@@ -180,7 +179,7 @@ googleAnalytics = ""
       livesIn = "[International House](https://ihouse.uchicago.edu/)"
       scope = []
       # For bio markdown and even multiline strings are available.
-      bio = """ Named after esteemed former UChicago Professor Paul Shorey, Shorey House has been home to undergraduates at the College since 1960. Its residents enjoy a strong culture of Broomball, quarterly Assassins games, Sports Frolic, and Super Smash Bros. tournaments, among many other quirky traditions. The Shorey House Council ensures that these traditions live on and that each Shorey resident finds a home here.  """
+      bio = """ Named after esteemed former UChicago Professor Paul Shorey, Shorey House has been home to undergraduates at the College since 1960. Its residents enjoy a strong culture of Broomball, quarterly Assassins games, Sports Frolic, and Smash tournaments, among many other quirky traditions. The Shorey House Council ensures that these traditions live on and that each Shorey resident finds a home here.  """
       social = [
         ["fa-home", "https://housing.uchicago.edu/houses_houses/international_house/shorey_house/"]
       ]
@@ -192,7 +191,8 @@ googleAnalytics = ""
       livesIn = "[Shorey House](https://housing.uchicago.edu/houses_houses/international_house/shorey_house/)"
       bio = """ Currently 60 students strong, we're the ones who make the magic happen. As fellow students at the University of Chicago, we know just how much a care package can mean during the strenuous Winter Quarter. More than just a bundle of delicious, well-needed treats, it's a small token of your love and support. We'll do our best to create and deliver your care package. """
       scope = [
-        ""
+        "Care Packagers & Delivery Squad",
+        "Items Acquisition Team"
       ]
       social = []
 
@@ -200,14 +200,15 @@ googleAnalytics = ""
       img = "3.jpg"
       name = "Chris Choy"
       position = "President"
+      livesIn = "[Shorey House](https://housing.uchicago.edu/houses_houses/international_house/shorey_house/)"
       scope = [
-        "Lead Website Developer",
-        "Primary Student Contact"
+        "Primary Student Contact",
+        "Lead Website Developer"
       ]
       bio = """ Will probably be the one responding when you [Contact Us](#contact). Please especially let me know if you find any weird bugs with this website! """
 
   # Client section
-    [params.clients_list]
+  [params.clients_list]
       enable = false
       # Possibility to center items
       #center = true
@@ -217,21 +218,23 @@ googleAnalytics = ""
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
 
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
+  # TODO: rm
+      # [[params.clients]]
+      #   logo = "envato.jpg"
+      #   link = "#"
+      #
+      # [[params.clients]]
+      #   logo = "designmodo.jpg"
+      #   link = "#"
+      #
+      # [[params.clients]]
+      #   logo = "themeforest.jpg"
+      #   link = "#"
+      #
+      # [[params.clients]]
+      #   logo = "creative-market.jpg"
+      #   link = "#"
 
   # Contact section
   [params.contact]
