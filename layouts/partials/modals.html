@@ -18,8 +18,13 @@
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
               <p>
                   {{ .description | markdownify }} </br>
-                  {{ .paypalhtml | markdownify }} </br>
-                  Discount Button for First-Year Students: {{ .paypalFYDhtml | markdownify }}
+
+                  {{ if .Site.Params.acceptingOrders }}
+                    {{ .paypalhtml | markdownify }} </br>
+
+                    Discount Button for First-Year Students:
+                    {{ .paypalFYDhtml | markdownify }}
+                  {{ end }}
               </p>
               <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
             </div>

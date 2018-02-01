@@ -20,6 +20,9 @@ googleAnalytics = ""
   name = "UChicago Winter Care Packages"
   description = "Send a Student some Love this Winter"
 
+  # Set to true when accepting orders
+  acceptingOrders = true
+
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
@@ -97,7 +100,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-arrow-right"
       title = "We Deliver"
-      description = "With our capable team of 60 UChicago students, we purchase, package, and hand deliver your selected items to your student's specified dormitory."
+      description = "With our capable team of 50 UChicago students, we purchase, package, and hand deliver your selected items to your student's specified dormitory. We hand package each of the items 8th through 9th week then deliver them throughout 10th week (just a few days before their finals!)."
       url = "#team"
 
     [[params.services.row.list]]
@@ -117,6 +120,8 @@ googleAnalytics = ""
     subtitle = "Select bundles from our menu below to build your own custom care package. \
     Add them to your Paypal Cart, then select CHECK OUT in the Paypal tab when you're done building. \
     Please remember to denote your student's NAME and DORMITORY in the shipping address during Paypal checkout or we will be *unable to deliver your order.*"
+    subtitleAlt = "Unfortunately, we are no longer accepting UChicago Winter Care Package orders. We only accept orders for packages \
+    1st through 7th week of the UChicago winter quarter. If you believe this to be a mistake, please contact us! "
 
     [params.portfolio.modal]
       category = ""
