@@ -17,14 +17,8 @@
               {{ $url := printf "img/portfolio/%s" .img }}
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
               <p>
-                  {{ .description | markdownify }} </br>
-
-                  {{ if .Site.Params.acceptingOrders }}
-                    {{ .paypalhtml | markdownify }} </br>
-
-                    Discount Button for First-Year Students:
-                    {{ .paypalFYDhtml | markdownify }}
-                  {{ end }}
+                    {{ .description | markdownify }} {{ .paypalhtml | markdownify }}</br>
+                    Discount Button for First-Year Students: {{ .paypalFYDhtml | markdownify }}
               </p>
               <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
             </div>
