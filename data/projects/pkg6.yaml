@@ -1,8 +1,8 @@
 modalID: 6
 title: Combo Item Pack
-subtitle: Why not both? Keep them warm while they study with this combo pack!
-img: pkg6.png
-preview: pkg6-preview.png
+subtitle: The ultimate in finals week success! Make your student’s day with everything that is included in the study pack AND everything that is included in the winter pack.
+img: pkg7.png
+preview: pkg7-preview.png
 category: The Best of Both Worlds
 description: This package includes ALL of the items from BOTH our **Study Supplies Drop** and **Winter Survival Kit** care packages.
 
@@ -21,4 +21,3 @@ paypalFYDhtml: >
     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
- 

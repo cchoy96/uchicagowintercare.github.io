@@ -1,10 +1,10 @@
 modalID: 4
 title: Study Supplies Drop
-subtitle: Help restock your student's study supplies with these academic essentials!
-img: pkg4.png
+subtitle: In order to succeed during finals week, students need the best tools for note-taking and annotating. Make sure your student is prepared with the tools to keep them up during those late-night study sessions.
+img: pkg4.jpg
 preview: pkg4-preview.png
 category: Items
-description: .
+description: Package includes an array of pens, pencils, highlighters, post-its, index cards, and bookmarks, in addition to packets of tea and instant coffee, and more!
 
 paypalhtml: >
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">

@@ -1,10 +1,10 @@
 modalID: 1
 title: Comfort Snacks
-subtitle: Keep your students comfy and warm!
+subtitle: During the stress of reading period and finals week, there’s nothing that makes a better study break than some tasty snacks. Treat your student to comfort food to help them power through the toughest week of the quarter.
 img: pkg1.jpg
 preview: pkg1-preview.jpg
 category: Food
-description: .
+description: Package includes chips, popcorn, candy bars, rice crispy treats, and more!
 
 paypalhtml: >
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
