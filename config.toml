@@ -21,7 +21,8 @@ googleAnalytics = ""
   description = "Send a Student some Love this Winter"
 
   # Set to true when accepting orders
-  acceptingOrders = true
+  # Setting to false will pretty much disable the Portfolio section
+  acceptingOrders = false
 
   # Link custom assets relative to /static
   custom_css = []
