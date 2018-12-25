@@ -178,7 +178,7 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
+      img = "shorey-crest.jpg"
       name = "Shorey House"
       position = "The House"
       reportsTo = ""
@@ -191,10 +191,10 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
+      img = "shorey-2019.jpg"
       name = "Shorey"
       position = "The Team"
-      livesIn = "[Shorey House](https://housing.uchicago.edu/houses_houses/international_house/shorey_house/)"
+      livesIn = "[Shorey House](https://housing.uchicago.edu/residence-halls/international-house/)"
       bio = """ Currently 60 students strong, we're the ones who make the magic happen. As fellow students at the University of Chicago, we know just how much a care package can mean during the strenuous Winter Quarter. More than just a bundle of delicious, well-needed treats, it's a small token of your love and support. We'll do our best to create and deliver your care package. """
       scope = [
         "Care Packagers & Delivery Squad",
@@ -203,17 +203,17 @@ googleAnalytics = ""
       social = []
 
     [[params.team.members]]
-      img = "3.jpg"
+      img = "aware.jpg"
       name = "Aware Deshmukh"
       position = "President"
-      livesIn = "[Shorey House](https://housing.uchicago.edu/houses_houses/international_house/shorey_house/)"
+      livesIn = "[Shorey House](https://housing.uchicago.edu/residence-halls/international-house/)"
       scope = [
         "Primary Student Contact"
       ]
-      bio = """ Will probably be the one responding when you [Contact Us](#contact). """
+      bio = """ Will most likely be the one responding when you [Contact Us](#contact). """
 
     [[params.team.members]]
-      img = "3.jpg"
+      img = "chris.jpg"
       name = "Chris Choy"
       position = "Webmaster"
       scope = [
@@ -232,23 +232,6 @@ googleAnalytics = ""
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
-
-  # TODO: rm
-      # [[params.clients]]
-      #   logo = "envato.jpg"
-      #   link = "#"
-      #
-      # [[params.clients]]
-      #   logo = "designmodo.jpg"
-      #   link = "#"
-      #
-      # [[params.clients]]
-      #   logo = "themeforest.jpg"
-      #   link = "#"
-      #
-      # [[params.clients]]
-      #   logo = "creative-market.jpg"
-      #   link = "#"
 
   # Contact section
   [params.contact]
