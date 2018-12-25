@@ -219,7 +219,7 @@ googleAnalytics = ""
       scope = [
         "Lead Website Developer"
       ]
-      bio = """ Please let me know if you find any weird bugs with this website! """
+      bio = """ Please let me know if you find any weird bugs with this website! You can reach me at contact@chrischoy.net """
 
   # Client section
   [params.clients_list]
