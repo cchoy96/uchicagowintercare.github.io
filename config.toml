@@ -204,14 +204,22 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Chris Choy"
+      name = "Aware Deshmukh"
       position = "President"
       livesIn = "[Shorey House](https://housing.uchicago.edu/houses_houses/international_house/shorey_house/)"
       scope = [
-        "Primary Student Contact",
+        "Primary Student Contact"
+      ]
+      bio = """ Will probably be the one responding when you [Contact Us](#contact). """
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Chris Choy"
+      position = "Webmaster"
+      scope = [
         "Lead Website Developer"
       ]
-      bio = """ Will probably be the one responding when you [Contact Us](#contact). Please especially let me know if you find any weird bugs with this website! """
+      bio = """ Please let me know if you find any weird bugs with this website! """
 
   # Client section
   [params.clients_list]
