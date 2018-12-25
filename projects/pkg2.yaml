@@ -1,0 +1,23 @@
+modalID: 2
+title: Healthy Snacks
+subtitle: When students are holed up in the library 24/7, making healthy choices can fall to the wayside – but taking care of your body is one of the best ways to focus on that Durkheim paper or that list of molecules to memorize. Help your student stay nourished with healthy options!
+img: pkg2.jpg
+preview: pkg2-preview.jpg
+category: Food - $25.00
+description: Package includes applesauce, veggie straws, granola bars, and more!
+
+paypalhtml: >
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="P9GH5X6XP8QW2">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+paypalFYDhtml: >
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="WZZXM4MB4CU8Y">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
