@@ -22,7 +22,7 @@ googleAnalytics = ""
 
   # Set to true when accepting orders
   # Setting to false will pretty much disable the Portfolio section
-  acceptingOrders = false
+  acceptingOrders = true
 
   # Link custom assets relative to /static
   custom_css = []
@@ -37,15 +37,6 @@ googleAnalytics = ""
   [params.error404]
     heading = "Page couldn't be found"
     text = "Please visit [this page](/)"
-
-  # Optional piwik tracking
-  #[params.analytics.piwik]
-  #  URL = "https://stats.example.com"
-  #  ID = "42"
-  #  # Track all subdomains with "*.example.com"
-  #  domain = "www.example.com"
-  #  # Optional integrity check hash
-  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
 
   # Navigation
   [params.navigation]
@@ -131,45 +122,13 @@ googleAnalytics = ""
 
     # About section
   [params.about]
-    enable = false
-    # TODO: rm
-    # title = "About"
-    # subtitle = "Lorem ipsum dolor sit amet consectetur."
-    # endpoint = "Be part<br>of our<br>story!"
-    #
-    # # The events will be listed from the top to the bottom.
-    # # All images are stored under 'static/img/about'.
-    # # Replace them with your own.
-    # [[params.about.events]]
-    #   img = "1.jpg"
-    #   date = "2009-2011"
-    #   title = "Our Humble Beginnings"
-    #   description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-    #
-    # [[params.about.events]]
-    #   img = "2.jpg"
-    #   date = "March 2011"
-    #   title = "An Agency is Born"
-    #   description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-    #
-    # [[params.about.events]]
-    #   img = "3.jpg"
-    #   date = "December 2012"
-    #   title = "Our Humble Beginnings"
-    #   description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-    #
-    # [[params.about.events]]
-    #   img = "4.jpg"
-    #   date = "July 2014"
-    #   title = "Phase Two Expansion"
-    #   description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
+    enable = false  # here for legacy reasons. just ignore it.
 
   # Team section
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
+    # center = true
     title = "Our amazing team"
     subtitle = "The people responsible for delivering your love."
     description = "All proceeds from this operation go to the Shorey House Council; an entity of Shorey House affiliated with the University of Chicago."
@@ -223,15 +182,7 @@ googleAnalytics = ""
 
   # Client section
   [params.clients_list]
-      enable = false
-      # Possibility to center items
-      #center = true
-      # Optional client title specifying the involvement
-      #title = "Used and trusted by"
-
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      # Suggestion: .svg in the size of 280px*80px looks good
+      enable = false  # here for legacy reasons. just ignore it
 
   # Contact section
   [params.contact]
