@@ -111,7 +111,7 @@ googleAnalytics = ""
     title = "Packages"
     subtitle = "Select bundles from our menu below to build your own custom care package. \
     Add them to your Paypal Cart, then select CHECK OUT in the Paypal tab when you're done building. \
-    Please remember to denote your student's NAME and DORMITORY in the shipping address during Paypal checkout or we will be *unable to deliver your order.*"
+    Please remember to denote your student's NAME and 'DORMITORY or OFFCAMPUS ADDRESS' in the shipping address during Paypal checkout or we will be *unable to deliver your order.*"
     subtitleAlt = "Unfortunately, we are no longer accepting UChicago Winter Care Package orders. We only accept orders for packages \
     1st through 7th week of the UChicago winter quarter. If you believe this to be a mistake, please contact us! "
 
