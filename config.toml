@@ -22,7 +22,7 @@ googleAnalytics = ""
 
   # Set to true when accepting orders
   # Setting to false will pretty much disable the Portfolio section
-  acceptingOrders = true
+  acceptingOrders = false
 
   # Link custom assets relative to /static
   custom_css = []
